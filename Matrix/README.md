@@ -52,3 +52,14 @@ bash
 This is Matrix#  %!
 
 - - - - - - - -  -
+
+Para cumprir o desafio foi utilizado um formato fora do conceito:
+
+- Matriz (n[]) contendo todos os caractéres;
+- Laço de repetição while com variável do tipo int (m) para navegar no index da matriz;
+- Switch case com 4 variáveis do tipo String (worda, wordb, wordc, wordd) para armazenamento dos charactéres desejáveis;
+- Método replace() para remoção dos caractéres indesejados;
+
+
+
+
