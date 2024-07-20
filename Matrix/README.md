@@ -43,20 +43,14 @@ ir!
 
 Sample Output:
 
-bash
-
 This is Matrix#  %!
 Explanation
 
 The decoded script is:
 
-bash
-
 This$#is% Matrix#  %!
 Neo replaces the symbols or spaces between two alphanumeric characters with a single space ' ' for better readability.
 So, the final decoded script is:
-
-bash
 
 This is Matrix#  %!
 
