@@ -2,8 +2,8 @@ Para cumprir o desafio foi utilizado um formato fora do conceito:
 
 - Matriz (n[]) contendo todos os caracteres;
 - Laço de repetição while com variável do tipo int (m) para navegar no index da matriz, tornando ela uma "coluna";
-- Switch case com 4 variáveis do tipo String (worda, wordb, wordc, wordd) para armazenamento dos characteres desejáveis, tornando a "coluna" novamente em uma "linha";
-- Método replace() para remoção dos caracteres indesejados e fatiamento de String para poder manipular a ordem na String.
+- Switch case com 4 variáveis do tipo String (worda, wordb, wordc, wordd) para armazenamento dos caracteres desejáveis, tornando a "coluna" novamente em uma "linha";
+- Método replace() para remoção dos caracteres indesejados e fatiamento de String ([::-1]) para poder manipular a ordem dos elementos.
   
 ---------------------
 
