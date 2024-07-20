@@ -1,3 +1,12 @@
+Para cumprir o desafio foi utilizado um formato fora do conceito:
+
+- Matriz (n[]) contendo todos os caracteres;
+- Laço de repetição while com variável do tipo int (m) para navegar no index da matriz, tornando ela uma "coluna";
+- Switch case com 4 variáveis do tipo String (worda, wordb, wordc, wordd) para armazenamento dos characteres desejáveis, tornando a "coluna" novamente em uma "linha";
+- Método replace() para remoção dos caracteres indesejados e fatiamento de String para poder manipular a ordem na String.
+  
+---------------------
+
 Neo has a complex matrix script. The matrix script is a N X M grid of strings. It consists of alphanumeric characters, spaces and symbols (!,@,#,$,%,&).
 
 To decode the script, Neo needs to read each column and select only the alphanumeric characters and connect them. Neo reads the column from top to bottom and starts reading from the leftmost column.
@@ -51,14 +60,7 @@ bash
 
 This is Matrix#  %!
 
-- - - - - - - -  -
 
-Para cumprir o desafio foi utilizado um formato fora do conceito:
-
-- Matriz (n[]) contendo todos os caractéres;
-- Laço de repetição while com variável do tipo int (m) para navegar no index da matriz;
-- Switch case com 4 variáveis do tipo String (worda, wordb, wordc, wordd) para armazenamento dos charactéres desejáveis;
-- Método replace() para remoção dos caractéres indesejados;
 
 
 
