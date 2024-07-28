@@ -21,9 +21,9 @@ for _ in range(n):
     matrix_item = input()
     matrix.append(matrix_item)
 
-recebe = ''
-
 converte = list(zip(*matrix))
+
+recebe = ''
 
 for alinha in converte:
     recebe = recebe + ''.join(alinha)
