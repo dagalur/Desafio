@@ -1,14 +1,14 @@
-# Função 'zip(*)' desmembra caractéres, 'list()' os alinha em listas
+- Função 'zip(*)' desmembra caractéres, 'list()' os alinha em listas
 converte = list(zip(*matrix))
 
-# Inicia String
+- Inicia String
 recebe = ''
 
-# Navega entre os elementos de 'converte'
+- Navega entre os elementos de 'converte'
 for alinha in converte:
-# 'join' concatena os elementos da lista 'alinha' e os armazena em 'recebe'
+- 'join' concatena os elementos da lista 'alinha' e os armazena em 'recebe'
     recebe = recebe + ''.join(alinha)
-# 're.sub' filtra o centro da String 'recebe' para números e letras porém permite que na ponta existam carácteres especiais
+- 're.sub' filtra o centro da String 'recebe' para números e letras porém permite que na ponta existam carácteres especiais
 print(re.sub(r'\b[^a-zA-Z0-9]+\b', r' ', recebe))
   
 ---------------------
